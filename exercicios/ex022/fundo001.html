@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Imagem de Fundo</title>
+    <style>
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: antiquewhite;
+        }
+
+        main {
+            text-align: center;
+            background-image: url('imagens/pattern004.png');
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+
+        div.quadrado {
+            border: 2px solid black;
+            width: 300px;
+            height: 300px;
+            margin: 20px;
+            display:inline-block;
+            border-radius: 10px;
+            background-color: lightgray
+             ;
+        }
+
+        div#q1 {
+            background-color: aquamarine;
+        }
+
+        div#q2 {
+            background-image: linear-gradient(to bottom, yellow, red);
+        }
+
+        div#q3 {
+            background-image: url('imagens/pattern003.png');
+        }
+
+        div.circulo {
+            display: inline-block;
+            width: 230px;
+            height: 230px;
+            margin: 30px;
+            background-color: lightgray;
+            border: 2px solid black;
+            border-radius: 50%;
+        }
+
+        div#c1 {
+            background-color: aquamarine;
+        }
+
+        div#c2 {
+            background-image: linear-gradient(to bottom, yellow, red);
+        }
+
+        div#c3 {
+            background-image: url('imagens/pattern003.png');
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="quadrado" id="q1">
+        </div>
+        <div class="quadrado" id="q2">
+        </div>
+        
+        <div class="quadrado" id="q3">
+        </div>
+        <br>
+        <div class="circulo" id="c1">
+        </div>
+        <div class="circulo" id="c2">
+        </div>
+        <div class="circulo" id="c3">
+        </div>
+    </main>
+
+</body>
+</html>
