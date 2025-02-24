@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+
+:root {
+    --fontetitulo: 'Passion one', cursive;
+    --fonteparagrafos: cursive;
+    --fonterodape: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+h1 {
+    font-family: var(--fontetitulo);
+    font-size: 10vw;
+    
+}
+header {
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 17vw;
+    padding-top: 2.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+body {
+    background-color: white;
+}
+
+section {
+    font-family: var(--fonteparagrafos);
+    line-height: 2em;
+    font-size: 3.5vw;
+    
+}
+
+section.padrao {
+    margin-top: 5vw;
+    margin-left: 4vw;
+    margin-bottom: 10vw;
+}
+
+section#parallax1 {
+    background-image: url('imagens/background1.jfif');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;   
+    box-shadow: 0.5px 0.5px 3px black; 
+}
+section#parallax1  p {
+    background-color: rgba(0, 0, 0, 0.212);
+    display: inline-block;
+    margin-top: 5vw;
+    margin-left: 4vw;
+    margin-bottom: 10vw;
+    color: white;
+
+}
+
+section#parallax2 {
+    background-image: url('imagens/background2.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 0.5px 0.5px 3px black;
+}
+
+section#parallax2 p {
+    background-color: rgba(0, 0, 0, 0.212);
+    display: inline-block;
+    margin-top: 5vw;
+    margin-left: 4vw;
+    margin-bottom: 10vw;
+    color: white;
+    
+}
+
+footer {
+    font-family: var(--fonterodape);
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white ;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
