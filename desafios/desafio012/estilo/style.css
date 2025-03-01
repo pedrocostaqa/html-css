@@ -64,10 +64,10 @@ section {
 section#parallax1 {
     background-image: url('../imagens/background1.jfif');
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: center center;
     background-size: cover;
     background-attachment: fixed;   
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514); 
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.411); 
 }
 section#parallax1  p {
     background-color: rgba(0, 0, 0, 0.212);
@@ -77,16 +77,17 @@ section#parallax1  p {
     margin-left: 4vw;
     margin-bottom: 10vw;
     color: white;
+    text-shadow: 1px 1px 0px black;
 
 }
 
 section#parallax2 {
     background-image: url('../imagens/background2.jpg');
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.411);
 }
 
 section#parallax2 p {
@@ -96,6 +97,7 @@ section#parallax2 p {
     margin-left: 4vw;
     margin-bottom: 10vw;
     color: white;
+    text-shadow: 1px 1px 0px black;
     
 }
 
