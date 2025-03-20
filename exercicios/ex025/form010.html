@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        div {
+
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Exemplo de formulários
+    </h1>
+    <form action="cadastro.js" method="get">
+        
+        <div>
+            <label for="iano">Em que ano você nasceu?</label>
+            <input type="number" name="ano" id="iano" min="1900" max="2025" oninput="iidade.innerHTML = Number(2025) - Number(iano.value)">
+        </div>
+
+        <div>
+            <label for="iidade">Sua idade é:</label>
+            <output id="iidade">0</output>
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
