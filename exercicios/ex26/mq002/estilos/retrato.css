@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
-/*ESTILO TELAS EM PÉ - PORTRAIT*/
+/* ESTILO TELAS EM PÉ - PORTRAIT */
+
+body {
+    background-image: url(../../imagens/cev-portrait.jpg);
+    background-position: center bottom;
+}
