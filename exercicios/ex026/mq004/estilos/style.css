@@ -20,6 +20,15 @@ h1 {
     text-shadow: 1px 2px 3px black;
 }
 
+h2 {
+    text-align: center;
+    padding: 5px;
+}
+
+h2::before {
+    content: "Versão para Celular";
+}
+
 body {
     background-image:  url('../imagens/back-phone.jpg');
     background-color: black;

@@ -47,6 +47,10 @@ Tela grande: acima de 1200px
         background-image:  url(../imagens/back-tablet.jpg);
     }
 
+    h2::before {
+        content: "Versão para Tablet";
+    }
+
     main {
         width: 450px;
     }
@@ -74,6 +78,10 @@ Tela grande: acima de 1200px
         background-image: url(../imagens/back-pc.jpg);
     }
 
+    h2::before {
+        content: "Versão para Desktop";
+    }
+
     main {
         width: 500px;
     }
@@ -98,6 +106,10 @@ Tela grande: acima de 1200px
 @media screen and (min-width:1301px) {
     body {
         background-image: url(../imagens/back-tv.jpg);
+    }
+
+    h2::before {
+        content: "Versão para TV";
     }
 
     main {
